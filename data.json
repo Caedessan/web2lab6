@@ -1,5 +1,5 @@
 [
-  {"username":"Admin","password":"admin","age":20},
-  {"username":"Alex","password":"lexa","age":19},
-  {"username":"santa","password":"claus","age":10000}
+ {"username":"Pavlo", "password":"123", "age":30},
+ {"username":"Natalia", "password":"321", "age":20},
+ {"username":"Petro", "password":"122", "age":34}
 ]

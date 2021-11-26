@@ -1,5 +1,13 @@
+
 var mongoose=require('mongoose');
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb+srv://admin:admin@admongobd.yq3ym.mongodb.net/ADmongoBD?retryWrites=true&w=majority');
-console.log("mongodb connect...")
+mongoose.connect('mongodb+srv://Admin:Admin123@cluster0.n1frl.mongodb.net/Cluster0?retryWrites=true&w=majority',{
+  keepAlive: true,
+  useNewUrlParser: true,
+  useCreateIndex: true,
+  useFindAndModify: false,
+  useUnifiedTopology: true
+});
+mongoose.set('useFindAndModify', false);
+console.log("Connect with db...")
 module.exports=mongoose;
