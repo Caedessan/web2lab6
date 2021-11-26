@@ -2,7 +2,7 @@
  "name": "lab4",
  "version": "1.0.0",
  "main": "server.js",
- "author": "Natalia Pavliuk",
+ "author": "Alex Danko",
  "license": "ISC",
  "devDependencies": {
   "body-parser": "^1.19.0",

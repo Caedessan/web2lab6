@@ -1,7 +1,7 @@
 
-var mongoose=require('mongoose');
+const mongoose=require('mongoose');
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb+srv://Admin:Admin123@cluster0.n1frl.mongodb.net/Cluster0?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://admin:admin@ADmongoBD.yq3ym.mongodb.net/ADmongoBD?retryWrites=true&w=majority',{
   keepAlive: true,
   useNewUrlParser: true,
   useCreateIndex: true,
